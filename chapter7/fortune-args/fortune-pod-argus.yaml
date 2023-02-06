@@ -1,0 +1,29 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: fortune2s
+  labels:
+    app: fortune
+spec:
+  containers:
+    - image: jasonlee159/fortune:args
+      args:
+        - "2"
+      name: html-generator
+      volumeMounts:
+        - mountPath: /var/htdocs
+          name: html
+    - image: nginx:alpine
+      name: web-server
+      volumeMounts:
+        - mountPath: /usr/share/nginx/html
+          name: html
+          readOnly: true
+      ports:
+        - containerPort: 80
+          protocol: TCP
+  volumes:
+    - name: html
+      emptyDir:
+        medium: Memory
+

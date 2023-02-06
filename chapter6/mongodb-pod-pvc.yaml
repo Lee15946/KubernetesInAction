@@ -4,15 +4,16 @@ metadata:
   name: mongodb
 spec:
   containers:
-    - image: mongo
-      name: mongodb
+    - name: mongo
+      image: mongo
       volumeMounts:
-        - name: mongodb-data
-          mountPath: /data/db
+        - mountPath: /data/db
+          name: mongodb-data
       ports:
         - containerPort: 27017
           protocol: TCP
   volumes:
     - name: mongodb-data
-      hostPath:
-        path: /tmp/mongodb
+      persistentVolumeClaim:
+        claimName: mongodb-pvc
+
