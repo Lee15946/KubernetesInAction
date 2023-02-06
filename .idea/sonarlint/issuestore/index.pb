@@ -22,8 +22,6 @@ $chapter5/kubia-svc-loadbalancer.yaml,5/2/522ec147393020ee33e8bf2c7d1fbd11dbfae
 P
  chapter5/kubia-svc-nodeport.yaml,b/e/befbebcefc0c1a7d1de8c44ebad406cd29955ac5
 E
-kubia-replicaset.yaml,0/6/06008364f14ea8e78bc7f505e16b786a9b581ba5
-E
 chapter4/cronjob.yaml,0/8/0866f03e1658f105c55c17163ab317a268f77f55
 F
 chapter4/exporter.yaml,f/f/ff75dc7bea1e8ba74d595d309a7bba228328eba8
