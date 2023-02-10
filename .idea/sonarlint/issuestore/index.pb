@@ -1,14 +1,8 @@
 
-J
-ssd-monitor-daemonset.yaml,5/5/55f0c0935fd1e4a66fe06cf3a385995b330958e2
-9
-	README.md,8/e/8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d
 <
 package.json,7/0/7030d0b2f71b999ff89a343de08c414af32fc93a
 V
 &kubia-replicaset-matchexpressions.yaml,2/1/218e7ccd77b78c59f57c0616e540bc62562a889c
-D
-KubernetesSample.iml,f/a/fa1050f37463d6e48a09ef49217272976b63b159
 p
 @chapter5/kubia-svc-with-session-affinity-and-multiple-ports.yaml,b/0/b0e20d8326d76c927b1cb7acb64c4c8ca176b3d4
 8
@@ -31,8 +25,6 @@ a
 1chapter4/multi-completion-parallel-batch-job.yaml,0/0/00c119e3cae310b0adae5bcc36bd366c1f48fead
 N
 chapter5/external-service.yaml,2/3/2389fea6f995346cd0a5cca4d65f16476ca07f1c
-K
-chapter5/kubia-ingress.yaml,1/5/15a663f9abe4e758815a0bfb4d4458fdbeb83c37
 =
 kubia-rc.yaml,f/7/f724217cc2692e942ffccebc50085e5a9aee5915
 >
@@ -41,7 +33,33 @@ I
 kubia-liveness-probe.yaml,4/c/4c2c653706c0a610e46e88a3a1dfbc91bd7e1a5e
 A
 kubia-manual.yaml,b/f/bf6fd17f983a638ee4754468d50c940c5cc0ac43
-M
-kubia-manual-with-labels.yaml,6/2/627ed4f42d96717886c4ae799d785d91bafb0c3e
 G
 chapter5/kubia-svc.yaml,1/b/1b33ec9459420b036772fd61d346c13625c80caf
+K
+chapter6/gitRepo/Dockerfile,0/7/078dfebdf5cbddd3822634886466ad0ae99fec53
+P
+ chapter6/gitrepo-volume-pod.yaml,c/e/cee7d855152eb22b6fbcd47f6b1cfab4fcc6ccc0
+[
++chapter5/external-service-externalname.yaml,d/7/d7c14cd73c6048224f6da5b1d28423e5826736a5
+X
+(chapter5/external-service-endpoints.yaml,f/b/fb47666f06128d8d18195a42e7cf31e858ddabb9
+X
+(chapter6/storageclass-fast-hostpath.yaml,c/4/c4d5230f94336207a4d4020b23a82c6c069e4b16
+L
+chapter6/mongodb-pvc-dp.yaml,f/7/f7d5f649de24866d5fd81fab7f220ac0de819c02
+[
++chapter6/mongodb-pvc-dp-nostorageclass.yaml,e/4/e4fc949ecc44a556f9fa4494c51b74111abbf18e
+S
+#chapter7/fortune-env/fortuneloop.sh,b/9/b922c832c470d7daca65ab9f6931694f1888620b
+O
+chapter7/fortune-env/Dockerfile,0/a/0aa3ffc6b04cca873d3846b78a00968137fceea5
+R
+"chapter6/mongodb-pod-hostpath.yaml,c/c/cc5064366b5c5dc044b66adbdf042f425ff9656d
+Q
+!chapter6/mongodb-pv-hostpath.yaml,6/7/679c7b8a5de9c3397a91725961b2611dcda7a791
+I
+chapter6/mongodb-pvc.yaml,1/1/114b2be76f4217c67205fb3c357fc62be003c418
+M
+chapter6/mongodb-pod-pvc.yaml,1/6/168531c348a0bef73d63926021bf042bb3ff3767
+E
+kubia-replicaset.yaml,0/6/06008364f14ea8e78bc7f505e16b786a9b581ba5

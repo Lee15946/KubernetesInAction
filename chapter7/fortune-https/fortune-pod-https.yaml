@@ -1,0 +1,47 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: fortune-https
+  labels:
+    app: fortune
+spec:
+  containers:
+    - image: jasonlee159/fortune:env
+      name: html-generator
+      volumeMounts:
+        - mountPath: /var/htdocs
+          name: html
+      env:
+        - name: INTERVAL
+          valueFrom:
+            configMapKeyRef:
+              name: fortune-config
+              key: sleep-interval
+    - image: nginx:alpine
+      name: web-server
+      volumeMounts:
+        - mountPath: /usr/share/nginx/html
+          name: html
+          readOnly: true
+        - mountPath: /etc/nginx/conf.d
+          name: config
+          readOnly: true
+        - mountPath: /etc/nginx/certs/
+          name: certs
+          readOnly: true
+      ports:
+        - containerPort: 80
+          protocol: TCP
+  volumes:
+    - name: html
+      emptyDir:
+        medium: Memory
+    - name: config
+      configMap:
+        name: fortune-config
+        items:
+          - key: my-nginx-config.conf
+            path: https.conf
+    - name: certs
+      secret:
+        secretName: fortune-https
