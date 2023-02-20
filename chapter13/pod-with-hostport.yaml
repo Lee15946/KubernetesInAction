@@ -1,0 +1,13 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: kubia-hostport
+spec:
+  containers:
+    - name: kubia
+      image: jasonlee159/kubia
+      ports:
+        - containerPort: 8080
+          hostPort: 9000
+          protocol: TCP
+
