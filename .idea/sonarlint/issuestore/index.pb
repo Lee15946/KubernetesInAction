@@ -50,8 +50,6 @@ R
 :
 
 .gitignore,a/5/a5cc2925ca8258af241be7e5b0381edf30266302
-j
-:chapter7/configmap-files/fortune-pod-configmap-volume.yaml,f/b/fbe452db6b18b9d88e77b1b2027b9e2feec94a26
 Q
 !chapter8/downward-api-volume.yaml,d/e/de6a5b08a2f86b4caed8542513d045baee42d2df
 A
