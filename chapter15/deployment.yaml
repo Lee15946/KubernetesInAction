@@ -1,0 +1,21 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: kubia
+spec:
+  replicas: 3
+  template:
+    metadata:
+      name: kubia
+      labels:
+        app: kubia
+    spec:
+      containers:
+        - name: nodejs
+          image: jasonlee159/kubia:v1
+          resources:
+            requests:
+              cpu: 100m
+  selector:
+    matchLabels:
+      app: kubia
