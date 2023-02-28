@@ -47,8 +47,6 @@ E
 kubia-replicaset.yaml,0/6/06008364f14ea8e78bc7f505e16b786a9b581ba5
 V
 &kubia-replicaset-matchexpressions.yaml,2/1/218e7ccd77b78c59f57c0616e540bc62562a889c
-E
-custom-namespace.yaml,5/2/52518e71031e0ac92f6286c9bc1f45d01b254c23
 [
 +chapter5/external-service-externalname.yaml,d/7/d7c14cd73c6048224f6da5b1d28423e5826736a5
 K
@@ -73,8 +71,6 @@ I
 chapter6/mongodb-pvc.yaml,1/1/114b2be76f4217c67205fb3c357fc62be003c418
 X
 (chapter6/storageclass-fast-hostpath.yaml,c/4/c4d5230f94336207a4d4020b23a82c6c069e4b16
->
-kubia-gpu.yaml,9/5/95ab849f4906d4dad5c821cffe0da58d82e73e1f
 F
 chapter9/v3/Dockerfile,8/6/8699c0f39d6588743b668c325f431f875538e9fe
 d
@@ -165,9 +161,6 @@ G
 chapter5/kubia-svc.yaml,1/b/1b33ec9459420b036772fd61d346c13625c80caf
 A
 kubia-manual.yaml,b/f/bf6fd17f983a638ee4754468d50c940c5cc0ac43
-:
-
-Dockerfile,6/6/6651ddff6eb82c840ced7c1dddee15c6e1913dd4
 M
 kubia-manual-with-labels.yaml,6/2/627ed4f42d96717886c4ae799d785d91bafb0c3e
 R
@@ -175,3 +168,36 @@ R
 :
 
 .gitignore,a/5/a5cc2925ca8258af241be7e5b0381edf30266302
+N
+chapter8/downward-api-env.yaml,6/2/62a8829172020b0a5b00c91aa69bccab8dc42398
+Q
+!chapter8/downward-api-volume.yaml,d/e/de6a5b08a2f86b4caed8542513d045baee42d2df
+=
+kubia-rc.yaml,f/7/f724217cc2692e942ffccebc50085e5a9aee5915
+U
+%chapter16/kubia-gpu-nodeaffinity.yaml,f/e/fe7a6b16f0d26fd302b2658e50977e03943fe2fb
+Q
+!chapter14/quota-object-count.yaml,d/0/d0016c633400c41d4f944e218dd5807ebdeca79d
+K
+chapter14/requests-pod.yaml,6/1/61dca24ed86c35306f3462a068a64acfb868a2f1
+K
+chapter14/quota-scoped.yaml,6/1/6199e33b7e7ec1756894a3b40dc0e6519931e557
+L
+chapter14/quota-storage.yaml,8/d/8d9ee05cecfad53289334b0ec1dd1703c31b9a20
+E
+chapter14/limits.yaml,9/8/98b903567a727bf9af855dc5bbfceed842d3f146
+O
+chapter14/quota-cpu-memory.yaml,0/6/06977a642a2ce7c411435aa07a218e17df3d4b91
+T
+$chapter16/production-deployment.yaml,9/8/98f0b9a397c55da4229a950c5c4b1eb9866e442b
+J
+chapter14/limited-pod.yaml,2/7/2791fbfce82d3bff62a65462a4c3f29e1e939d39
+Q
+!chapter14/limits-pod-too-big.yaml,7/4/74d867533f438a7a1324b91ba67f7c60eb77614c
+E
+custom-namespace.yaml,5/2/52518e71031e0ac92f6286c9bc1f45d01b254c23
+:
+
+Dockerfile,6/6/6651ddff6eb82c840ced7c1dddee15c6e1913dd4
+>
+kubia-gpu.yaml,9/5/95ab849f4906d4dad5c821cffe0da58d82e73e1f
