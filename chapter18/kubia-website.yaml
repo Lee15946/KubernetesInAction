@@ -1,4 +1,4 @@
-apiVersion: extensions.example.com/v1
+apiVersion: extensions.example.com/v1alpha1
 kind: Website
 metadata:
   name: kubia
